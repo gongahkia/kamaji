@@ -18,6 +18,11 @@ The below instructions are for locally hosting `Kamaji`.
 
 1. ...
 
+```console
+$ git clone https://github.com/gongahkia/kamaji && cd kamaji
+$ docker-compose up --build
+```
+
 ## Architecture
 
 ### Overview
