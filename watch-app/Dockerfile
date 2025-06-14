@@ -6,4 +6,4 @@ RUN npm install -g @zeppos/zeus-cli
 
 COPY . .
 
-CMD ["zeus", "build"]
+CMD ["zeus", "build", "--platform", "gtr4"]

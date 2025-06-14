@@ -48,7 +48,8 @@ const App = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Kamaji Finance</h1>
+        <h1>Kamaji</h1>
+        <h3>Your Portable Finance Manager</h3>
         <div className="device-status">
           <span className={`status-indicator ${deviceStatus.toLowerCase()}`} />
           {deviceStatus}

@@ -2,7 +2,7 @@
 
 # `Kamaji` 🏦
 
-...
+A Finance Manager application for your [Amazfit](https://www.amazfit.com/) watch.
 
 ## Stack
 
@@ -35,9 +35,13 @@ $ docker-compose up --build
 
 ...
 
+![](./asset/reference/architecture.png)
+
 ### Mobile App
 
 ...
+
+![](./asset/reference/architecture.png)
 
 ## Reference
 
