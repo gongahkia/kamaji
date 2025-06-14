@@ -20,7 +20,19 @@ The below instructions are for locally hosting `Kamaji`.
 
 ## Architecture
 
+### Overview
+
+...
+
 ![](./asset/reference/architecture.png)
+
+### Watch App
+
+...
+
+### Mobile App
+
+...
 
 ## Reference
 

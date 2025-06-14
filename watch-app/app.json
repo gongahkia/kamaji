@@ -1,0 +1,10 @@
+{
+  "package": "github.com/gongahkia/kamaji",
+  "name": "Kamaji",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minPlatformVersion": 4,
+  "features": ["system.storage"],
+  "icon": "resources/images/app_icon.png",
+  "main": "app.js"
+}
