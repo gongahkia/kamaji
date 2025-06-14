@@ -1,0 +1,59 @@
+window {
+  background-color: #000000;
+}
+
+text {
+  font-family: 'Roboto-Regular';
+}
+
+button {
+  background-color: #2A2A2A;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 8px;
+}
+
+.list-item {
+  border-bottom: 1px solid #333333;
+  padding: 10px;
+}
+
+.list-item text {
+  font-size: 20px;
+}
+
+.chart-bar {
+  transition: height 0.3s ease;
+}
+
+.transaction-detail {
+  background-color: #1A1A1A;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.category-tag {
+  background-color: #3A3A3A;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.balance-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.positive {
+  color: #00FF00;
+}
+
+.negative {
+  color: #FF0000;
+}
+
+.scroll-view {
+  background-color: #1A1A1A;
+  border-radius: 12px;
+  padding: 10px;
+}
