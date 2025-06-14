@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  companion-app:
+    build:
+      context: ./companion-app
+    ports:
+      - "3000:80"
+    container_name: kamaji-companion
+    restart: unless-stopped
+
+  watch-app:
+    build:
+      context: ./watch-app
+    volumes:
+      - ./watch-app:/app
+    container_name: kamaji-watch
+    command: ["zeus", "build"]
+    restart: unless-stopped
