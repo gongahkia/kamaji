@@ -4,7 +4,7 @@
 
 A Finance Manager application for your [Amazfit](https://www.amazfit.com/) watch.
 
-`Kamaji` is served as both a [Watch Application](./watch-app/) and a [Companion Web App](./companion-app/).
+`Kamaji` is served as both a [Watch Application](./watch-app/) and a [Companion Web App](./companion-app/), synced via the [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) communication protocol.
 
 ## Stack
 
