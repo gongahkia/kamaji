@@ -1,2 +1,4 @@
 node_modules
 myenv
+.env
+.env.local
