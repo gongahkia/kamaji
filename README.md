@@ -9,8 +9,8 @@
 * *Frontend*: [React](https://react.dev/)
 * *Script*: [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * *Package*: [Docker](https://www.docker.com/)
-* *SDK*: []()
-* *Protocol*: []()
+* *SDK*: [Zepp OS SDK](https://docs.zepp.com/docs/guides/tools/cli/overview/)
+* *Protocol*: [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
 
 ## Usage
 
