@@ -6,11 +6,11 @@
 
 ## Stack
 
-* ...
-* ...
-* ...
-* ...
-* ...
+* *Frontend*: [React](https://react.dev/)
+* *Script*: [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* *Package*: [Docker](https://www.docker.com/)
+* *SDK*: []()
+* *Protocol*: []()
 
 ## Usage
 

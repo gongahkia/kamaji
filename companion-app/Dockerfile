@@ -10,6 +10,7 @@ RUN npm install
 
 # Copy source code
 COPY src ./src
+COPY public ./public
 COPY webpack.config.js ./
 
 # Build the frontend (adjust to your build command if needed)
@@ -17,7 +18,7 @@ RUN npm run build
 
 # Serve with a lightweight web server
 FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
