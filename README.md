@@ -4,6 +4,8 @@
 
 A Finance Manager application for your [Amazfit](https://www.amazfit.com/) watch.
 
+`Kamaji` is served as both a [Watch Application](./watch-app/) and a [Companion Web App](./companion-app/).
+
 ## Stack
 
 * *Frontend*: [React](https://react.dev/)
@@ -24,22 +26,6 @@ $ docker-compose up --build
 ```
 
 ## Architecture
-
-### Overview
-
-...
-
-![](./asset/reference/architecture.png)
-
-### Watch App
-
-...
-
-![](./asset/reference/architecture.png)
-
-### Mobile App
-
-...
 
 ![](./asset/reference/architecture.png)
 
