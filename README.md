@@ -1,4 +1,5 @@
-[![](https://img.shields.io/badge/kamaji_1.0.0-passing-green)](https://github.com/gongahkia/kamaji/releases/tag/1.0.0) 
+[![](https://img.shields.io/badge/kamaji_1.0.0-passing-dark_green)](https://github.com/gongahkia/kamaji/releases/tag/1.0.0) 
+[![](https://img.shields.io/badge/kamaji_2.0.0-passing-green)](https://github.com/gongahkia/kamaji/releases/tag/2.0.0) 
 
 # `Kamaji` 🏦
 
@@ -16,7 +17,7 @@ A Finance Manager application for your [Amazfit](https://www.amazfit.com/) watch
 
 ## Usage
 
-The below instructions are for locally hosting `Kamaji`.
+The below instructions are for locally hosting `Kamaji`. Also check for [device compatibility](#target).
 
 1. Execute the following.
 
@@ -33,9 +34,36 @@ $ docker-compose up --build
     5. Run `make emulate-watch WATCH_PLATFORM=gtr4` to run the Zepp OS emulator.
     6. Run `make companion-shell` to run the Companion Web App.
 
+## Screenshot
+
+![](./asset/reference/web.png)
+
 ## Architecture
 
 ![](./asset/reference/architecture.png)
+
+## Target
+
+`Kamaji` currently supports 9 of Amazfit's 16 devices.
+
+| Device | Platform Version Range | Supported | 
+|--------|------------------------|------------|
+| Amazfit Balance | 3.7 → 4.0 | ✅ | 
+| Amazfit Balance 2 | 4.2 → 5.0 | ✅ | 
+| Amazfit Active 2 (Square) | 4.2 → 5.0 | ✅ | 
+| Amazfit Active 2 (Round) | 4.2 → 5.0 | ✅ | 
+| Amazfit Bip 6 | 4.2 → 5.0 | ✅ | 
+| Amazfit T-Rex 3 Pro (44mm) | 4.2 → 5.0 | ✅ | 
+| Amazfit T-Rex 3 Pro (48mm) | 4.2 → 5.0 | ✅ | 
+| Amazfit T-Rex 3 | 4.0 → 4.5 | ✅ | 
+| Amazfit Active | 3.6 → 4.0 | ✅ | 
+| Amazfit GTR 4 | 3.6 → 3.5 | ❌ | 
+| Amazfit GTS 4 | 3.6 → 3.5 | ❌ | 
+| Amazfit Cheetah (Round) | 3.6 → 3.5 | ❌ | 
+| Amazfit Cheetah Pro | 3.6 → 3.5 | ❌ | 
+| Amazfit Falcon | 3.6 → 3.5 | ❌ | 
+| Amazfit GTR Mini | 2.0 → 2.0 | ❌ | 
+| Amazfit Bip 5 | 2.1 → 2.1 | ❌ | 
 
 ## Reference
 

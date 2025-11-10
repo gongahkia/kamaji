@@ -89,7 +89,7 @@ const App = () => {
             <Typography variant="subtitle2" gutterBottom>Your Portable Finance Manager</Typography>
             <Typography variant="h3" fontWeight={700} gutterBottom>${totalBalance.toFixed(2)}</Typography>
             <Stack direction="row" spacing={2}>
-              <Button variant="outlined" color="info" startIcon={<SyncIcon />} onClick={syncDemoData}>Sync Demo Data</Button>
+              <Button variant="outlined" color="info" startIcon={<SyncIcon />} onClick={syncDemoData}>Sync with AmazFit T-Rex 2</Button>
               <Button variant="outlined" color="inherit" onClick={() => setTransactions([])}>Clear</Button>
             </Stack>
           </CardContent>
@@ -114,7 +114,7 @@ const App = () => {
             </Card>
           ))}
           {transactions.length === 0 && (
-            <Typography variant="body2" sx={{ opacity: 0.7 }}>No transactions yet. Connect your watch or use demo sync.</Typography>
+            <Typography variant="body2" sx={{ opacity: 0.7 }}>No transactions yet. Connect your watch via Live Sync.</Typography>
           )}
         </Stack>
       </Box>
